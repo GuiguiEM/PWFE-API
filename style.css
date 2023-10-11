@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1a1b1b;
+}
+
+.logo{
+    width: 75px;
+    margin: 25px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.input{
+    height: 100px;
+    display: flex;
+    gap: 36px;
+}
+
+.personagens{
+    background-image: url(./img/kaisa.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 0 none;
+    width: 250px;
+    height: 500px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.personagens:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #008fff;
+    color: wheat;
+}
+
+.itens{
+    background-image: url(./img/shopkeeper.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 0 none;
+    width: 250px;
+    height: 500px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.itens:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #008fff;
+    color: wheat;
+}
